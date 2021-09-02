@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  max-width: 900px;
+  margin: auto;
 }
 
 .App-logo {
@@ -35,4 +37,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  width: 250px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  margin-top: 2rem;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.card-actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
